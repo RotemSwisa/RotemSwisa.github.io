@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900"
+     preserveAspectRatio="xMidYMid slice" role="presentation">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#FBF8F2"/>
+      <stop offset="52%"  stop-color="#F0E7D8"/>
+      <stop offset="100%" stop-color="#CFE0D5"/>
+    </linearGradient>
+    <linearGradient id="peach" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F6E4D2"/>
+      <stop offset="45%"  stop-color="#E9C4A4"/>
+      <stop offset="100%" stop-color="#F3DCC5"/>
+    </linearGradient>
+    <linearGradient id="apricot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#EFD2B4"/>
+      <stop offset="52%"  stop-color="#D9A97F"/>
+      <stop offset="100%" stop-color="#EACDB2"/>
+    </linearGradient>
+    <linearGradient id="sage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#D7E6DC"/>
+      <stop offset="48%"  stop-color="#A6C0B1"/>
+      <stop offset="100%" stop-color="#C6DACE"/>
+    </linearGradient>
+    <linearGradient id="deepsage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#AEC5B7"/>
+      <stop offset="58%"  stop-color="#7B9585"/>
+      <stop offset="100%" stop-color="#9DB8A7"/>
+    </linearGradient>
+    <linearGradient id="ivory" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#FFFEFB"/>
+      <stop offset="50%"  stop-color="#F5EFE4"/>
+      <stop offset="100%" stop-color="#FCF9F3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#ground)"/>
+
+  <g transform="rotate(-15 800 450)">
+    <path d="M-600,-260 C 100,-420 900,-90 2300,-300 L2300,-90 C 900,120 100,-210 -600,-50 Z" fill="url(#ivory)"/>
+    <path d="M-600,-50  C 100,-210 900,120 2300,-90 L2300,70  C 900,280 100,-50  -600,110 Z" fill="url(#sage)"    opacity="0.85"/>
+    <path d="M-600,110  C 100,-50  900,280 2300,70  L2300,190 C 900,400 100,70   -600,230 Z" fill="url(#ivory)"/>
+    <path d="M-600,230  C 100,70   900,400 2300,190 L2300,290 C 900,500 100,170  -600,330 Z" fill="url(#peach)"   opacity="0.95"/>
+    <path d="M-600,330  C 100,170  900,500 2300,290 L2300,420 C 900,630 100,300  -600,460 Z" fill="url(#apricot)" opacity="0.88"/>
+    <path d="M-600,460  C 100,300  900,630 2300,420 L2300,536 C 900,746 100,416  -600,576 Z" fill="url(#ivory)"/>
+    <path d="M-600,576  C 100,416  900,746 2300,536 L2300,656 C 900,866 100,536  -600,696 Z" fill="url(#peach)"   opacity="0.7"/>
+    <path d="M-600,696  C 100,536  900,866 2300,656 L2300,806 C 900,1016 100,686 -600,846 Z" fill="url(#sage)"    opacity="0.95"/>
+    <path d="M-600,846  C 100,686  900,1016 2300,806 L2300,916 C 900,1126 100,796 -600,956 Z" fill="url(#ivory)"  opacity="0.94"/>
+    <path d="M-600,956  C 100,796  900,1126 2300,916 L2300,1400 C 900,1610 100,1280 -600,1440 Z" fill="url(#deepsage)"/>
+
+    <g fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="2">
+      <path d="M-600,30   C 100,-130 900,200  2300,-10"/>
+      <path d="M-600,170  C 100,10   900,340  2300,130"/>
+      <path d="M-600,380  C 100,220  900,550  2300,340"/>
+      <path d="M-600,500  C 100,340  900,670  2300,460"/>
+      <path d="M-600,750  C 100,590  900,920  2300,710"/>
+      <path d="M-600,900  C 100,740  900,1070 2300,860"/>
+    </g>
+    <g fill="none" stroke="#7E9487" stroke-opacity="0.24" stroke-width="1.4">
+      <path d="M-600,90   C 100,-70  900,260  2300,50"/>
+      <path d="M-600,440  C 100,280  900,610  2300,400"/>
+      <path d="M-600,820  C 100,660  900,990  2300,780"/>
+    </g>
+    <g fill="none" stroke="#C98F5E" stroke-opacity="0.2" stroke-width="1.4">
+      <path d="M-600,360  C 100,200  900,530  2300,320"/>
+      <path d="M-600,620  C 100,460  900,790  2300,580"/>
+    </g>
+  </g>
+</svg>
